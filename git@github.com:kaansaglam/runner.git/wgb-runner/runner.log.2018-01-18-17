@@ -1,2 +1,0 @@
-17:59:22,763 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[domuz.wgb.reviews], port#9,300
-17:59:31,803 INFO  [com.galaksiya.wgb.runner.secondaryIdAdder] (main) DONE!
