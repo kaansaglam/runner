@@ -1,0 +1,6461 @@
+[
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sikayet_var",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "https://www.sikayetvar.com/home/rss/",
+        "isBasedOnUrl": "https://www.sikayetvar.com/",
+        "category": "health",
+        "inLanguage": "tr",
+        "cacheSize": "2500",
+        "resolve": "false"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/aksam_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aksam.com.tr/cache/rss/googleNewsStand.xml",
+        "isBasedOnUrl": "http://www.aksam.com.tr/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Asia/Tbilisi"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/evrensel",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.evrensel.net/rss/haber.xml",
+        "isBasedOnUrl": "http://www.evrensel.net/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/milliyet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.milliyet.com.tr/rss/rssNew/gundemRss.xml",
+        "isBasedOnUrl": "http://www.milliyet.com.tr/",
+        "category": "news",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/milliyet_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.milliyet.com.tr/rss/rssNew/SonDakikaRss.xml",
+        "isBasedOnUrl": "http://www.milliyet.com.tr/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/posta_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.posta.com.tr/xml/rss/rss_1_0.xml",
+        "isBasedOnUrl": "http://www.posta.com.tr/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/star_gazete",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.star.com.tr/rss/rss.asp?cid=13",
+        "isBasedOnUrl": "http://www.star.com.tr/",
+        "category": "news",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/star_gazete_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.star.com.tr/rss/rss.asp",
+        "isBasedOnUrl": "http://www.star.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/takvim_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.takvim.com.tr/rss/AnaSayfa.xml",
+        "isBasedOnUrl": "http://www.takvim.com.tr/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/London"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/taraf_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.taraf.com.tr/feed/",
+        "isBasedOnUrl": "http://www.taraf.com.tr/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/turkiye_gazetesi_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.turkiyegazetesi.com.tr/rss/rss.xml",
+        "isBasedOnUrl": "http://www.turkiyegazetesi.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/vatan",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gazetevatan.com/rss/gundem.xml",
+        "isBasedOnUrl": "http://www.gazetevatan.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yenicag_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yenicaggazetesi.com.tr/rss/",
+        "isBasedOnUrl": "http://www.yenicaggazetesi.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yenimesaj_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yenimesaj.com.tr/rss",
+        "isBasedOnUrl": "http://www.yenimesaj.com.tr",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yenisafak_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yenisafak.com.tr/rss/",
+        "isBasedOnUrl": "http://www.yenisafak.com.tr/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/zaman_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.zaman.com.tr/manset.rss",
+        "isBasedOnUrl": "http://www.zaman.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberturk_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberturk.com/rss",
+        "isBasedOnUrl": "http://www.haberturk.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sozcu_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.sozcu.com.tr/rss.php",
+        "isBasedOnUrl": "http://www.sozcu.com.tr/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/trt",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.trt.net.tr/rss/gundem.rss",
+        "isBasedOnUrl": "http://www.trt.net.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ntv_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ntv.com.tr/gundem.rss",
+        "isBasedOnUrl": "http://www.ntvmsnbc.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber3_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haber3.com/rss/",
+        "isBasedOnUrl": "http://www.haber3.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gercek_gundem_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gercekgundem.com/rss",
+        "isBasedOnUrl": "http://www.gercekgundem.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberx_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberx.com/haberx.rss",
+        "isBasedOnUrl": "http://www.haberx.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/internet_haber_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.internethaber.com/rss/last_min.xml",
+        "isBasedOnUrl": "http://www.internethaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bianet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.bianet.org/bianet.rss",
+        "isBasedOnUrl": "http://www.bianet.org/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/son_sayfa_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.sonsayfa.com/rss.xml",
+        "isBasedOnUrl": "http://www.sonsayfa.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber_medya",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.habermedya.com.tr/rss.rss",
+        "isBasedOnUrl": "http://www.habermedya.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberler_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.haberler.com/rss.asp?kategori=sondakika",
+        "isBasedOnUrl": "http://www.haberler.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/acik_gazete",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.acikgazete.com/feed/",
+        "isBasedOnUrl": "http://www.acikgazete.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber_flash",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberflash.com/xml.php",
+        "isBasedOnUrl": "http://www.haberflash.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber_gazete",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.habergazete.com/rss.html",
+        "isBasedOnUrl": "http://www.habergazete.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/spot_haber_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.spothaber.com/rss.php",
+        "isBasedOnUrl": "http://www.spothaber.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+3",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/internet_ajans_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.internetajans.com/rss.php",
+        "isBasedOnUrl": "http://www.internetajans.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberciler_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberciler.com/sondakika.rss",
+        "isBasedOnUrl": "http://www.haberciler.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/f5_haber_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.f5haber.com/rss/haberler.xml",
+        "isBasedOnUrl": "http://www.f5haber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/piramit_haber_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.piramithaber.com/rss.php",
+        "isBasedOnUrl": "http://www.piramithaber.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/kobi_postasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.kobipostasi.net/feed/",
+        "isBasedOnUrl": "http://www.kobipostasi.net/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazeteci_tv_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gazeteci.tv/feed/",
+        "isBasedOnUrl": "http://www.gazeteci.tv/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/turk_internet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://turk-internet.com/rss/guncel.php",
+        "isBasedOnUrl": "http://turk-internet.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/en_son_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ensonhaber.com/rss/gundem.xml",
+        "isBasedOnUrl": "http://www.ensonhaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/en_son_haber_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ensonhaber.com/rss/ensonhaber.xml",
+        "isBasedOnUrl": "http://www.ensonhaber.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ulke_haber_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ulkehaber.com/rss/sondakika.xml",
+        "isBasedOnUrl": "http://www.ulkehaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/anadolu_ajansi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aa.com.tr/tr/rss/default?cat=guncel",
+        "isBasedOnUrl": "http://www.aa.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber_aktuel_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberaktuel.com/RSS/",
+        "isBasedOnUrl": "http://www.haberaktuel.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tvyo",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tvyo.com/rss/son_eklenenler",
+        "isBasedOnUrl": "http://www.tvyo.com/",
+        "category": "magazine",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/milliyet_sinemalar",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.milliyet.com.tr/rss/rssNew/SinemaRss.xml",
+        "isBasedOnUrl": "http://www.milliyet.com.tr/sinema/",
+        "category": "magazine",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/milliyet_magazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.milliyet.com.tr/rss/rssNew/magazinRss.xml",
+        "isBasedOnUrl": "http://www.milliyet.com.tr/magazin/",
+        "category": "magazine",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/fotomac",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.fotomac.com.tr/rss/Anasayfa.xml",
+        "isBasedOnUrl": "http://www.fotomac.com.tr",
+        "category": "sport",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/amkspor",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://amkspor.com/feed/",
+        "isBasedOnUrl": "http://amkspor.com/",
+        "category": "sport",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/mackolik",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.mackolik.com/Rss",
+        "isBasedOnUrl": "http://www.mackolik.com/",
+        "category": "sport",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_news_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cnnturk.com/feed/rss/news",
+        "isBasedOnUrl": "http://www.cnnturk.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_video_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cnnturk.com/feed/rss/video",
+        "isBasedOnUrl": "http://www.cnnturk.com/video/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber7_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://sondakika.haber7.com/sondakika.rss",
+        "isBasedOnUrl": "http://www.haber7.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/samanyolu_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.samanyoluhaber.com/rss.htm&id=son-dakika",
+        "isBasedOnUrl": "http://www.samanyoluhaber.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/samanyolu",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.samanyoluhaber.com/rss.htm&id=1",
+        "isBasedOnUrl": "http://www.samanyoluhaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/aydinlik_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aydinlikgazete.com/rss",
+        "isBasedOnUrl": "http://www.aydinlikgazete.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber1_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haber1.com/rss/haber.xml",
+        "isBasedOnUrl": "http://www.haber1.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ulusalpost_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ulusalpost.com/rss/",
+        "isBasedOnUrl": "http://www.ulusalpost.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/odatv_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.odatv.com/rss.php",
+        "isBasedOnUrl": "http://www.odatv.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bloomberg_ht",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.bloomberght.com/rss",
+        "isBasedOnUrl": "http://www.bloomberght.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_international_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_magazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cnnturk.com/feed/rss/news/magazin",
+        "isBasedOnUrl": "http://www.cnnturk.com/magazin",
+        "category": "magazine",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/milliyet_ekonomi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.milliyet.com.tr/rss/rssNew/ekonomiRss.xml",
+        "isBasedOnUrl": "http://www.milliyet.com.tr/ekonomi/",
+        "category": "business",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ekonomist",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ekonomist.com.tr/Rss/Default.aspx",
+        "isBasedOnUrl": "http://www.ekonomist.com.tr",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_money_international",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/money_news_international.rss",
+        "isBasedOnUrl": "http://money.cnn.com/INTERNATIONAL/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_money_companies",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/money_news_companies.rss",
+        "isBasedOnUrl": "http://money.cnn.com/INTERNATIONAL/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_money_economy",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/money_news_economy.rss",
+        "isBasedOnUrl": "http://money.cnn.com/INTERNATIONAL/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/joc_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.joc.com/rssfeed",
+        "isBasedOnUrl": "http://www.joc.com",
+        "category": "logistics",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_transport_logistics",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/topics/transport-and-logistics/index.xml",
+        "isBasedOnUrl": "http://www.economist.com/topics/transport-and-logistics",
+        "category": "logistics",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/inbound_logistics",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.inboundlogistics.com/cms/rss-feed/",
+        "isBasedOnUrl": "http://www.inboundlogistics.com",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lojistik_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lojistiknews.com/feed/",
+        "isBasedOnUrl": "http://www.lojistiknews.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lojistikhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lojistikhaber.com/?feed=rss2",
+        "isBasedOnUrl": "http://www.lojistikhaber.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/dunya_news_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.dunya.com/rss/",
+        "isBasedOnUrl": "http://www.dunya.com/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lojiport",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lojiport.com/feed/",
+        "isBasedOnUrl": "http://www.lojiport.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lojistik_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lojistik-haber.com/feed",
+        "isBasedOnUrl": "http://www.lojistik-haber.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lojisturk",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lojisturk.net/sondakika.rss",
+        "isBasedOnUrl": "http://www.lojisturk.net/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/deniz_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.denizhaber.com.tr/rss/",
+        "isBasedOnUrl": "http://www.denizhaber.com.tr/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ulasim_online",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ulasimonline.com/rss/",
+        "isBasedOnUrl": "http://www.ulasimonline.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hellenic_shipping_freight_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hellenicshippingnews.com/category/commodities/freight-news/feed/",
+        "isBasedOnUrl": "http://www.hellenicshippingnews.com/category/commodities/freight-news/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hellenic_shipping_port",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hellenicshippingnews.com/category/shipping-news/port-news/feed/",
+        "isBasedOnUrl": "http://www.hellenicshippingnews.com/category/shipping-news/port-news/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/world_maritime_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.feedburner.com/worldmaritimenews/Ltoh",
+        "isBasedOnUrl": "http://worldmaritimenews.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ship2shore",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ship2shore.it/en/rss",
+        "isBasedOnUrl": "http://www.ship2shore.it/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/dynamar",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "https://www.dynamar.com/news/rss",
+        "isBasedOnUrl": "https://www.dynamar.com/dynaliners",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lloyds_list",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lloydslist.com/ll/news/?service=rss",
+        "isBasedOnUrl": "http://www.lloydslist.com/ll/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sea_news_latests",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.seanews.com.tr/rss/code-latest/rf-1/Latest-Articles.html",
+        "isBasedOnUrl": "http://www.seanews.com.tr/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sea_news_worldship",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.seanews.com.tr/rss/c51/rf-1/WORLD-SHIPPING.html",
+        "isBasedOnUrl": "http://www.seanews.com.tr/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sea_news_turkish_straits",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.seanews.com.tr/rss/c2/rf-1/TURKISH-STRAITS.html",
+        "isBasedOnUrl": "http://www.seanews.com.tr/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sea_news_ports",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.seanews.com.tr/rss/c38/rf-1/PORTS.html",
+        "isBasedOnUrl": "http://www.seanews.com.tr/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sea_news_turship",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.seanews.com.tr/rss/c1/rf-1/SHIPBUILDING.html",
+        "isBasedOnUrl": "http://www.seanews.com.tr/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/trade_winds_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tradewindsnews.com/rss2/",
+        "isBasedOnUrl": "http://www.tradewindsnews.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/logistics_matter",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.logisticsmatter.com/feed/",
+        "isBasedOnUrl": "http://www.logisticsmatter.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/marine_link",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.marinelink.com/feeds/rss.aspx",
+        "isBasedOnUrl": "http://www.marinelink.com/",
+        "category": "logistics",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/shipping_herald_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.shippingherald.com/feed/",
+        "isBasedOnUrl": "http://shippingherald.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/the_medi_telegraph",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.themeditelegraph.com/en/rss/Homepage",
+        "isBasedOnUrl": "http://www.themeditelegraph.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/shipping_watch",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.jp.dk/shippingwatch/english/",
+        "isBasedOnUrl": "http://shippingwatch.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/marine_insight",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.marineinsight.com/feed/",
+        "isBasedOnUrl": "http://www.marineinsight.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/maritime_executive",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.maritime-executive.com/articles.rss",
+        "isBasedOnUrl": "http://www.maritime-executive.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/shipping_news_daily",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.shippingnewsdaily.com/rss.xml",
+        "isBasedOnUrl": "http://shippingnewsdaily.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/big_para",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.bigpara.com/rss",
+        "isBasedOnUrl": "http://www.bigpara.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yapi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yapi.com.tr/Rss/Haberler.rss",
+        "isBasedOnUrl": "http://www.yapi.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yapi_events",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yapi.com.tr/Rss/Etkinlikler.rss",
+        "isBasedOnUrl": "http://www.yapi.com.tr/etkinlikler/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yapi_contests",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yapi.com.tr/Rss/Yarismalar.rss",
+        "isBasedOnUrl": "http://www.yapi.com.tr/yarismalar/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yapi_products_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yapi.com.tr/Rss/UrunHaberleri.rss",
+        "isBasedOnUrl": "http://www.yapi.com.tr/urunhaberleri/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/mimarizm",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.mimarizm.com/Haberler/rss.aspx",
+        "isBasedOnUrl": "http://www.mimarizm.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/mimarizm_events",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.mimarizm.com/Etkinlikler/rss.aspx",
+        "isBasedOnUrl": "http://www.mimarizm.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/fc_bayern",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.fcbayern.de/de/aktuell/fcbRSS.xml",
+        "isBasedOnUrl": "http://www.fcbayern.de/",
+        "category": "sport",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sueddeutsche",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.sueddeutsche.de/rss/Sport",
+        "isBasedOnUrl": "http://www.sueddeutsche.de/",
+        "category": "sport",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/weltfussball",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.weltfussball.de/rss/",
+        "isBasedOnUrl": "http://www.weltfussball.de/",
+        "category": "sport",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bild_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.bild.de/rssfeeds/vw-home/vw-home-16725562,sort=1,view=rss2.bild.xml",
+        "isBasedOnUrl": "http://www.bild.de/breakingnews",
+        "category": "breakingnews",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bild_sports",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.bild.de/rssfeeds/vw-sport/vw-sport-16729856,short=1,sort=1,view=rss2.bild.xml",
+        "isBasedOnUrl": "http://www.bild.de/sports",
+        "category": "sport",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/kicker",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.kicker.de/news/aktuell",
+        "isBasedOnUrl": "http://www.kicker.de/",
+        "category": "sport",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bundesliga",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.bundesliga.de/rss/de/rss_news.xml",
+        "isBasedOnUrl": "http://www.bundesliga.de/",
+        "category": "sport",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sky_sports",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www1.skysports.com/feeds/12040/news.xml",
+        "isBasedOnUrl": "http://www.skysports.com/",
+        "category": "sport",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sport1",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.sport1.de/news.rss",
+        "isBasedOnUrl": "http://www.sport1.de/",
+        "category": "sport",
+        "inLanguage": "de"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/moscow_times",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.themoscowtimes.com/rss/news/",
+        "isBasedOnUrl": "http://www.themoscowtimes.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/nine_o_clock_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.nineoclock.ro/feed/",
+        "isBasedOnUrl": "http://www.nineoclock.ro/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber_rus",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://haberrus.com/rss/",
+        "isBasedOnUrl": "http://haberrus.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ukrturk_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://ukrturk.net/feed/",
+        "isBasedOnUrl": "http://ukrturk.net/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/kyıvpost_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.kyivpost.com/rss/",
+        "isBasedOnUrl": "http://www.kyivpost.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/civil_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.civil.ge/eng/rss.php",
+        "isBasedOnUrl": "http://www.civil.ge/eng/",
+        "category": "news",
+        "inLanguage": "en"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+4",
+        "replacer": "Asia/Tbilisi"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazetem_breaking_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://gazetem.ru/rss.xml",
+        "isBasedOnUrl": "http://gazetem.ru/breakingnews/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazetem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://gazetem.ru/rss/gundem/1.xml",
+        "isBasedOnUrl": "http://gazetem.ru/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazetem_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://gazetem.ru/rss/ekonomi/3.xml",
+        "isBasedOnUrl": "http://gazetem.ru/business/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/invest_bg_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.investbg.government.bg/en/default/index/rss",
+        "isBasedOnUrl": "http://www.investbg.government.bg/en",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tuid_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://tuid.org.ua/feed",
+        "isBasedOnUrl": "http://tuid.org.ua/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/azernews_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.azernews.az/feeds/business.rss",
+        "isBasedOnUrl": "http://www.azernews.az/business/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/portnews_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://en.portnews.ru/news/rss/s2/",
+        "isBasedOnUrl": "http://en.portnews.ru/news/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/seanews_info_logistics",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://seanews.info/rss/?rubric=1&geo=",
+        "isBasedOnUrl": "http://seanews.info/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sputnik_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://sputniknews.com/export/rss2/archive/index.xml",
+        "isBasedOnUrl": "http://sputniknews.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sputnik_news_turkce",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://tr.sputniknews.com/export/rss2/archive/index.xml",
+        "isBasedOnUrl": "http://tr.sputniknews.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/son_dakika",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.sondakika.com/rss_standart.asp",
+        "isBasedOnUrl": "http://www.sondakika.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haber_sol",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://haber.sol.org.tr/rss/tumicerik",
+        "isBasedOnUrl": "http://haber.sol.org.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/aktif_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aktifhaber.com/rss/",
+        "isBasedOnUrl": "http://www.aktifhaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazeteturka",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gazeteturka.com/rss/",
+        "isBasedOnUrl": "http://www.gazeteturka.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/canli_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.canlihaber.com/rss/",
+        "isBasedOnUrl": "http://www.canlihaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tarafsız_bolge",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tarafsizbolge.com/rss.php",
+        "isBasedOnUrl": "http://www.tarafsizbolge.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/kuzey_postasi_breaki̇ng_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://kuzeypostasi.com/rss/genel",
+        "isBasedOnUrl": "http://kuzeypostasi.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/kuzey_postasi_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://kuzeypostasi.com/rss/gundem/5",
+        "isBasedOnUrl": "http://kuzeypostasi.com/gundem/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/enter_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ensonemlakhaberleri.com/rss.php",
+        "isBasedOnUrl": "http://www.ensonemlakhaberleri.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ajans_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ajanshaber.com/rss",
+        "isBasedOnUrl": "http://www.ajanshaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yeni_asya_breaking_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yeniasya.com.tr/rss/son-dakika",
+        "isBasedOnUrl": "http://www.yeniasya.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yeni_asya_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yeniasya.com.tr/rss/gundem",
+        "isBasedOnUrl": "http://www.yeniasya.com.tr/gundem",
+        "category": "news",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yeni_akit",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yeniakit.com.tr/haber/rss",
+        "isBasedOnUrl": "http://www.yeniakit.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ],
+        "trackerHeaders": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yeni_akit_gundem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yeniakit.com.tr/haber/rss/gundem",
+        "isBasedOnUrl": "http://www.yeniakit.com.tr/gundem-haberleri",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tgrt_haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tgrthaber.com.tr/feed/sondakika/index.rss",
+        "isBasedOnUrl": "http://www.tgrthaber.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/millet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.millet.com.tr/haberler.xml",
+        "isBasedOnUrl": "http://www.millet.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/trthaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.trthaber.com/sondakika.rss",
+        "isBasedOnUrl": "http://www.trthaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/stargundem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://stargundem.com/sondakika.rss",
+        "isBasedOnUrl": "http://stargundem.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/meydan",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.meydan.com.tr/rss/haber/genel.xml",
+        "isBasedOnUrl": "http://www.meydan.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/meydan_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.meydan.com.tr/rss/haber/gundem.xml",
+        "isBasedOnUrl": "http://www.meydan.com.tr/haber/gundem.html",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberkita",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberkita.com/rss",
+        "isBasedOnUrl": "http://www.haberkita.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/mynet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.mynet.com/haber/rss/sondakika",
+        "isBasedOnUrl": "http://www.mynet.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/boldhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.boldhaber.com/rss/genel",
+        "isBasedOnUrl": "http://www.boldhaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazeteekonomi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gazeteekonomi.com/rss.php",
+        "isBasedOnUrl": "http://www.gazeteekonomi.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/turcomoney",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.turcomoney.com/feed",
+        "isBasedOnUrl": "http://www.turcomoney.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_breaking_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/topNews",
+        "isBasedOnUrl": "http://www.reuters.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_business_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/businessNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_company_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/companyNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_bonds_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/bondsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_economy",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/news/economy",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_global_markets_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/globalmarketsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_environment",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/environment",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_financial_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/financialsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_industrial_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/industrialsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_technology_sector_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/technologysectorNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_bankruptcy_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/bankruptcyNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_deals",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/news/deals",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_government_filings_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/governmentfilingsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_cyclical_consumer_goods_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/cyclicalconsumergoodsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_nonyclical_consumer_goods_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/noncyclicalconsumergoodsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_utilities_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/utilitiesNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_basic_materials_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/basicmaterialsNews",
+        "isBasedOnUrl": "http://www.reuters.com/business",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/reuters_africa_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.reuters.com/reuters/AFRICATopNews?format=xml",
+        "isBasedOnUrl": "http://www.reuters.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hurriyet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hurriyet.com.tr/rss/son-dakika",
+        "isBasedOnUrl": "http://www.hurriyet.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/milliyet_health",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.milliyet.com.tr/rss/rssNew/saglikRss.xml",
+        "isBasedOnUrl": "http://www.milliyet.com.tr/saglik/",
+        "category": "health",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sabah",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.sabah.com.tr/rss/sondakika.xml",
+        "isBasedOnUrl": "http://www.sabah.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/posta_health",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.posta.com.tr/xml/rss/rss_9_0.xml",
+        "isBasedOnUrl": "http://www.posta.com.tr/saglik",
+        "category": "health",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazetevatan_health",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gazetevatan.com/rss/saglik.xml",
+        "isBasedOnUrl": "http://www.gazetevatan.com/saglik/",
+        "category": "health",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberturk_health",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberturk.com/rss/kategori/saglik.xml",
+        "isBasedOnUrl": "http://www.haberturk.com/saglik",
+        "category": "health",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnnturk_health",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cnnturk.com/feed/rss/news/saglik",
+        "isBasedOnUrl": "http://www.cnnturk.com/saglik",
+        "category": "health",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cumhuriyet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cumhuriyet.com.tr/rss/son_dakika.xml",
+        "isBasedOnUrl": "http://www.cumhuriyet.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/seanews_safety_security",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.seanews.com.tr/rss/c42/rf-1/SAFETY-SECURITY.html",
+        "isBasedOnUrl": "http://www.seanews.com.tr/news/c42/SAFETY-SECURITY.html",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/kadinlar_kulubu",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.feedburner.com/KadinlarKulubu",
+        "isBasedOnUrl": "http://www.kadinlarkulubu.com/portal/saglik/",
+        "category": "health",
+        "inLanguage": "tr",
+        "categoryCriteria": "Sağlık"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yurtgazetesi_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yurtgazetesi.com.tr/rss.php",
+        "isBasedOnUrl": "http://www.yurtgazetesi.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/61saat.com",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.61saat.com/rss",
+        "isBasedOnUrl": "http://www.61saat.com",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ahlatgazetesi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ahlatgazetesi.com/rss.php",
+        "isBasedOnUrl": "http://www.ahlatgazetesi.com",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/izmirgundem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.izmirgundem.com/rss.xml",
+        "isBasedOnUrl": "http://www.izmirgundem.com",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/taraftarhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.taraftarhaber.com/rss.xml",
+        "isBasedOnUrl": "http://www.taraftarhaber.com/",
+        "category": "sport",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/guncelbakis",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.guncel-bakis.com/rss.xml",
+        "isBasedOnUrl": "http://www.guncel-bakis.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/43haber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://43haber.com/rss.xml",
+        "isBasedOnUrl": "http://43haber.com",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/capital_tracker",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.capital.com.tr/son-haberler",
+        "isBasedOnUrl": "http://www.capital.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.capital.com.tr",
+        "valuePattern": "^\\/.*-haberdetay-[0-9]+"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/istanbul_ticaret_borsasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.istib.org.tr/istanbul-ticaret-borsasi/haberler",
+        "isBasedOnUrl": "http://www.istib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.istib.org.tr",
+        "valuePattern": "(haberler\\/[^\\/]*\\/[0-9]+)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/izmir_ticaret_borsasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://itb.org.tr/Haber",
+        "isBasedOnUrl": "http://itb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://itb.org.tr/",
+        "valuePattern": "(?i)(http:\\/\\/itb.org.tr\\/(Haber|duyuru)\\/[0-9]*[^\"]*)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/izmir_ticaret_borsasi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://itb.org.tr/Duyuru",
+        "isBasedOnUrl": "http://itb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://itb.org.tr/",
+        "valuePattern": "(?i)(http:\\/\\/itb.org.tr\\/(Haber|duyuru)\\/[0-9]*[^\"]*)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/ankara_ticaret_borsasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ankaratb.org.tr/haber_arsivi.php",
+        "isBasedOnUrl": "http://www.ankaratb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.ankaratb.org.tr/",
+        "valuePattern": "(?i)SayfaAc\\('((haber|duyuru|slide)_goster.php\\?Id=[^']*)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/ankara_ticaret_borsasi_slide",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ankaratb.org.tr/slide_arsivi.php",
+        "isBasedOnUrl": "http://www.ankaratb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.ankaratb.org.tr/",
+        "valuePattern": "(?i)SayfaAc\\('((haber|duyuru|slide)_goster.php\\?Id=[^']*)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/ankara_ticaret_borsasi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ankaratb.org.tr/duyuru.php",
+        "isBasedOnUrl": "http://www.ankaratb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.ankaratb.org.tr/",
+        "valuePattern": "(?i)SayfaAc\\('((haber|duyuru|slide)_goster.php\\?Id=[^']*)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/adana_ticaret_borsasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "extractorUri": "http://extractor.wgb.io:8083/adana_ticaret_borsasi",
+        "url": "http://www.adanatb.org.tr/Haberler.htm",
+        "isBasedOnUrl": "http://www.adanatb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "",
+        "valuePattern": "(http:\\/\\/www.adanatb.org.tr\\/[^\\.]*.htm)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/edirne_ticaret_borsasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.etb.org.tr/tr/web/53/borsamzdan-haberler.html",
+        "isBasedOnUrl": "http://www.etb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.etb.org.tr",
+        "valuePattern": "(?i)(\\/tr\\/detail\\/[0-9]+\\/[^\\/]*\\/[0-9]+\\/[^\"]*)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/edirne_ticaret_borsasi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.etb.org.tr/tr/web/54/borsamzdan-duyurular.html",
+        "isBasedOnUrl": "http://www.etb.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.etb.org.tr",
+        "valuePattern": "(?i)(\\/tr\\/detail\\/[0-9]+\\/[^\\/]*\\/[0-9]+\\/[^\"]*)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/turkiye_ihracatcilar_meclisi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "extractorUri": "http://extractor.wgb.io:8083/metaTag",
+        "url": "http://www.tim.org.tr/tr/tim-gundem.html",
+        "isBasedOnUrl": "http://www.tim.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.tim.org.tr/tr",
+        "valuePattern": "(gundem-)[-0-9a-zA-Z]+.html$"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/turkiye_ihracatcilar_meclisi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "extractorUri": "http://extractor.wgb.io:8083/metaTag",
+        "url": "http://tim.org.tr/tr/aktuel-timden-haberler.html",
+        "isBasedOnUrl": "http://www.tim.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.tim.org.tr/tr",
+        "valuePattern": "(gundem-|basin-odasi-(timden-haberler-|gundem-)|timdem-haberler-)[-0-9a-zA-Z]+.html$)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/akdeniz_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.akib.org.tr/tr/akib-gundem.html",
+        "isBasedOnUrl": "http://www.akib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.akib.org.tr/tr",
+        "valuePattern": "(?i)(akib-gundem-([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/bati_akdeniz_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.baib.gov.tr/tr/aib-gundem.html",
+        "isBasedOnUrl": "http://www.baib.gov.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.baib.gov.tr/tr",
+        "valuePattern": "(?i)((\\/tr\\/)?(baib-gundem-|aktuel-(sirkuler-|duyurular-))([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/bati_akdeniz_ihracatcilar_birligi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.baib.gov.tr/tr/aktuel-duyurular.html",
+        "isBasedOnUrl": "http://www.baib.gov.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.baib.gov.tr/tr",
+        "valuePattern": "(?i)((\\/tr\\/)?(baib-gundem-|aktuel-(sirkuler-|duyurular-))([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/denizli_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.denib.org.tr/tr/denib-gundem.html",
+        "isBasedOnUrl": "http://www.denib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.denib.org.tr/tr/",
+        "valuePattern": "(?i)((\\/tr\\/)?(denib-gundem-|aktuel-(duyurular|sirkuler)-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/denizli_ihracatcilar_birligi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.denib.org.tr/tr/aktuel-duyurular.html",
+        "isBasedOnUrl": "http://www.denib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.denib.org.tr/tr/",
+        "valuePattern": "(?i)((\\/tr\\/)?(denib-gundem-|aktuel-(duyurular|sirkuler)-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/dogu_anadolu_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.daib.org.tr/tr/daib-gundem.html",
+        "isBasedOnUrl": "http://www.daib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.daib.org.tr/tr/",
+        "valuePattern": "(?i)((\\/tr\\/)?(daib-gundem-|aktuel-(duyurular|sirkuler)-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/dogu_anadolu_ihracatcilar_birligi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.daib.org.tr/tr/aktuel-duyurular.html",
+        "isBasedOnUrl": "http://www.daib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.daib.org.tr/tr/",
+        "valuePattern": "(?i)((\\/tr\\/)?(daib-gundem-|aktuel-(duyurular|sirkuler)-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/dogu_karadeniz_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.dkib.org.tr/tr/gundem.html",
+        "isBasedOnUrl": "http://www.dkib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.dkib.org.tr/tr/",
+        "valuePattern": "(?i)((\\/tr\\/)?(aktuel-haberler-|basin-odasi-basin-bultenleri-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/dogu_karadeniz_ihracatcilar_birligi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.dkib.org.tr/tr/aktuel-basin-bultenleri.html",
+        "isBasedOnUrl": "http://www.dkib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.dkib.org.tr/tr/",
+        "valuePattern": "(?i)((\\/tr\\/)?(aktuel-haberler-|basin-odasi-basin-bultenleri-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/istanbul_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.iib.org.tr/tr/iib-gundem.html",
+        "isBasedOnUrl": "http://www.iib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.iib.org.tr/tr/",
+        "valuePattern": "(?i)((iib-gundem-|diger-duyurular-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/istanbul_ihracatcilar_birligi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.iib.org.tr/tr/aktuel-duyurular.html",
+        "isBasedOnUrl": "http://www.iib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.iib.org.tr/tr/",
+        "valuePattern": "(?i)((iib-gundem-|diger-duyurular-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/istanbul_maden_metal_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.immib.org.tr/tr/immib-gundem.html",
+        "isBasedOnUrl": "http://www.immib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.immib.org.tr/tr/",
+        "valuePattern": "(?i)((immib-gundem-|aktuel-(duyurular|sirkuler)-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/istanbul_maden_metal_ihracatcilar_birligi_notifications",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.immib.org.tr/tr/aktuel-duyurular.html",
+        "isBasedOnUrl": "http://www.immib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.immib.org.tr/tr/",
+        "valuePattern": "(?i)((immib-gundem-|aktuel-(duyurular|sirkuler)-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/karadeniz_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.kib.org.tr/tr/basin-odasi-kib-gundem.html",
+        "isBasedOnUrl": "http://www.kib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.kib.org.tr/tr/",
+        "valuePattern": "(basin-odasi-kib-gundem-)[a-z-]+.html$"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/uludag_ihracatcilar_birligi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.uib.org.tr/tr/uib-gundem.html",
+        "isBasedOnUrl": "http://www.uib.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.uib.org.tr/tr/",
+        "valuePattern": "(?i)((uib-gundem-|basin-odasi-kib-gundem-)([a-z]|[0-9]|-)*.html)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/fuar_aktuel",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.fuaraktuel.com/haberler/",
+        "isBasedOnUrl": "http://www.fuaraktuel.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.fuaraktuel.com/",
+        "valuePattern": "^(\\/|)haber\\/[0-9]+\\/.*.html"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/abc_az_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://abc.az/eng/",
+        "isBasedOnUrl": "http://abc.az/eng/",
+        "category": "news",
+        "inLanguage": "en"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://abc.az/eng/news/",
+        "valuePattern": "(news_)[0-9a-z-_]+.html$"
+      },
+      "timezoneChange": {
+        "replacer": "Asia/Baku"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/balkans_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.balkans.com/index.php",
+        "isBasedOnUrl": "http://www.balkans.com/",
+        "category": "business",
+        "inLanguage": "en"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.balkans.com/",
+        "valuePattern": "^(open\\-news\\.php\\?uniquenumber\\=)([0-9]{6})$"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/ukrainian_journal_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ukrainianjournal.com/index.php#1",
+        "isBasedOnUrl": "http://www.ukrainianjournal.com/",
+        "category": "news",
+        "inLanguage": "en"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.ukrainianjournal.com/",
+        "valuePattern": "^(index\\.php\\?w\\=article\\&id\\=)([0-9]{5})$"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/georgia_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.georgiatoday.ge/",
+        "isBasedOnUrl": "http://georgiatoday.ge/",
+        "category": "news",
+        "inLanguage": "en"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://georgiatoday.ge",
+        "valuePattern": "\\/news\\/[0-9]+\\/.*"
+      },
+      "timezoneChange": {
+        "replacer": "Asia/Tbilisi"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/aktuel_deniz",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aktueldeniz.com/",
+        "isBasedOnUrl": "http://www.aktueldeniz.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.aktueldeniz.com",
+        "valuePattern": "^\\/(gundem|deniz_ulastirma|deniz_ticaret|sektor|gemi_insa|roportaj)\\/([a-z0-9_-]+)"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/html/focus_fen",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.focus-fen.net/categories/86/",
+        "isBasedOnUrl": "http://www.focus-fen.net/",
+        "category": "business",
+        "inLanguage": "en"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.focus-fen.net",
+        "valuePattern": "(?i)<div[^>]*>[^<]*<h2>[^<]*<a.*href=\"\\.(\\/news\\/(\\d|\\/)*(.*\\.html))\""
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Sofia"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/turk_rus",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.turkrus.com/",
+        "isBasedOnUrl": "http://www.turkrus.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.turkrus.com/",
+        "valuePattern": "([0-9]+-(.|-)*-xh.aspx)"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/61medya",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.61medya.com/feed",
+        "isBasedOnUrl": "http://www.61medya.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/7-24haberci",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.7-24haberci.com/rss.xml",
+        "isBasedOnUrl": "http://www.7-24haberci.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/abhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.abhaber.com/feed/",
+        "isBasedOnUrl": "http://www.abhaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/adabasini",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "https://www.adabasini.com/rss.xml",
+        "isBasedOnUrl": "https://www.adabasini.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/adabulvar",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.adabulvar.com/rss.xml",
+        "isBasedOnUrl": "http://www.adabulvar.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/adanahabergazetesi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.adanahabergazetesi.com.tr/rss.xml",
+        "isBasedOnUrl": "http://www.adanahabergazetesi.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/adatavir",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://adatavir.com/SiteRss.ashx",
+        "isBasedOnUrl": "http://adatavir.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ajans23.com",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://ajans23.com/rss.xml",
+        "isBasedOnUrl": "http://ajans23.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/afyonhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.afyonhaber.com/rss.xml",
+        "isBasedOnUrl": "http://www.afyonhaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/akdenizhaberci",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://akdenizhaberci.com/RSS/",
+        "isBasedOnUrl": "http://akdenizhaberci.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/aksiyonhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aksiyonhaber.com/rss/",
+        "isBasedOnUrl": "http://www.aksiyonhaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/splash247",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://splash247.com/feed/",
+        "isBasedOnUrl": "http://splash247.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/maritimejournal_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.maritimejournal.com/rss-feeds?page=430185",
+        "isBasedOnUrl": "http://www.maritimejournal.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/maritimejournal_events",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.maritimejournal.com/rss-feeds-events?page=430197",
+        "isBasedOnUrl": "http://www.maritimejournal.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lojistikdefteri",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lojistikdefteri.com/feed",
+        "isBasedOnUrl": "http://www.lojistikdefteri.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/forbes",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.forbes.com/real-time/feed2/",
+        "isBasedOnUrl": "http://www.forbes.com/",
+        "category": "business",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion",
+          "Cookie: welcomeAd=true; dailyWelcomeCookie=true"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/theafricareport",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.feedburner.com/tar-home?format=xml",
+        "isBasedOnUrl": "http://www.theafricareport.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/denizticaretgazetesi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.denizticaretgazetesi.org/rss.php",
+        "isBasedOnUrl": "http://www.denizticaretgazetesi.org/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/halktv",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.halktv.com.tr/feed/",
+        "isBasedOnUrl": "http://www.halktv.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/patronlardunyasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.patronlardunyasi.com/sondakika.xml",
+        "isBasedOnUrl": "http://www.patronlardunyasi.com/",
+        "category": "business",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yesillojistikciler",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://yesillojistikciler.com/rss.xml",
+        "isBasedOnUrl": "http://yesillojistikciler.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/izmirbel",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.izmir.bel.tr/Rss/1/tr",
+        "isBasedOnUrl": "http://www.izmir.bel.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/kaptanhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.kaptanhaber.com/rss.xml",
+        "isBasedOnUrl": "http://www.kaptanhaber.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberturktv",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberturk.tv/rss/video",
+        "isBasedOnUrl": "http://www.haberturk.tv/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/denizhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.denizhaber.com.tr/rss/",
+        "isBasedOnUrl": "http://www.denizhaber.com.tr/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ahaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ahaber.com.tr/rss/son24saat.xml",
+        "isBasedOnUrl": "http://www.ahaber.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cma_cgm_corporate",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "https://www.cma-cgm.com/news/corporate-feed",
+        "isBasedOnUrl": "https://www.cma-cgm.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Asia/Tbilisi"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cma_cgm_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "https://www.cma-cgm.com/news/business-feed",
+        "isBasedOnUrl": "https://www.cma-cgm.com/",
+        "category": "business",
+        "inLanguage": "en"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Asia/Tbilisi"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/financialtimes",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ft.com/rss/home/europe",
+        "isBasedOnUrl": "http://www.ft.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/und_genel_haberler",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://und.org.tr/rss.php?t=1&id=0",
+        "isBasedOnUrl": "http://und.org.tr/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/und_dunyadan_haberler",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://und.org.tr/rss.php?t=1&id=146",
+        "isBasedOnUrl": "http://und.org.tr/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gundemavrasya",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gundemavrasya.com/rss/",
+        "isBasedOnUrl": "http://www.gundemavrasya.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tcresmigazete",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.feedburner.com/rega?format=xml",
+        "isBasedOnUrl": "http://www.resmi-gazete.org/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/disticarethaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.disticarethaber.com/feed/",
+        "isBasedOnUrl": "http://www.disticarethaber.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/themeditelegraph",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://themeditelegraph.com/en/rss/Homepage",
+        "isBasedOnUrl": "http://themeditelegraph.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/onedio",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://onedio.com/support/rss.xml",
+        "isBasedOnUrl": "http://onedio.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/7deniz",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.7deniz.net/feed/",
+        "isBasedOnUrl": "http://www.7deniz.net/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/business-finance/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "business",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_economics",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/economics/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "business",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_science",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/science-technology/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "business",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_leaders",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/leaders/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "business",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_us",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/united-states/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_britain",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/britain/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_china",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/china/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_america",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/americas/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_middle_east",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/middle-east-africa/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_international",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/international/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_europe",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/europe/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/economist_asia",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.economist.com/sections/asia/rss.xml",
+        "isBasedOnUrl": "http://www.economist.com/",
+        "category": "news",
+        "inLanguage": "en",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+        ]
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tuik",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tuik.gov.tr/jsp/duyuru/rss/tuik_hb.xml",
+        "isBasedOnUrl": "http://www.tuik.gov.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/business/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_technology",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/technology/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_africa",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/world/africa/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_asia",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/world/asia/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_europe",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/world/europe/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_latin_america",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_middle_east",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
+        "isBasedOnUrl": "http://www.bbc.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/izka",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.izka.org.tr/feed/",
+        "isBasedOnUrl": "http://www.izka.org.tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lloydslist_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lloydslist.com/ll/news/?service=rss",
+        "isBasedOnUrl": "http://www.lloydslist.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lloydslist_comment",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lloydslist.com/ll/news/commentary/?service=rss",
+        "isBasedOnUrl": "http://www.lloydslist.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lloydslist_features",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lloydslist.com/ll/news/features/?service=rss",
+        "isBasedOnUrl": "http://www.lloydslist.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lloydslist_profiles",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lloydslist.com/ll/news/profiles/?service=rss",
+        "isBasedOnUrl": "http://www.lloydslist.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/lloydslist_last_word",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.lloydslist.com/ll/news/last-word/?service=rss",
+        "isBasedOnUrl": "http://www.lloydslist.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/time_news",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://time.com/newsfeed/feed/",
+        "isBasedOnUrl": "http://time.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/time_world",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds2.feedburner.com/time/world",
+        "isBasedOnUrl": "http://time.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/time_business",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds2.feedburner.com/time/business",
+        "isBasedOnUrl": "http://time.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/time_tech",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://time.com/tech/feed/",
+        "isBasedOnUrl": "http://time.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/bbc_turkce",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.bbc.com/turkce/index.xml",
+        "isBasedOnUrl": "http://www.bbc.com/turkce/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/allafrica",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+        "isBasedOnUrl": "http://allafrica.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/maritimejournal",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.maritimejournal.com/rss-feed?page=21131",
+        "isBasedOnUrl": "http://www.maritimejournal.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tusiad_basin_bulteni",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tusiad.org/tr/tum?format=feed&type=rss",
+        "isBasedOnUrl": "http://www.tusiad.org/tr/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/aljazeera_turk",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://aljazeera.com.tr/rss.xml",
+        "isBasedOnUrl": "http://aljazeera.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_world",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_world.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_africa",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_africa.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_americas",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_americas.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_asia",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_asia.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_europe",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_europe.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_middle_east",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_meast.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_us",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_us.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "breakingnews",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cnn_technology",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.cnn.com/rss/edition_technology.rss",
+        "isBasedOnUrl": "http://edition.cnn.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/mahfiegilmez",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.mahfiegilmez.com/feeds/posts/default?alt=rss",
+        "isBasedOnUrl": "http://www.mahfiegilmez.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/transmedya",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.transmedya.com/rss",
+        "isBasedOnUrl": "http://www.transmedya.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/iha_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.iha.com.tr/rss.php",
+        "isBasedOnUrl": "http://www.iha.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/iha_dunya",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.iha.com.tr/rss.php?cid=4",
+        "isBasedOnUrl": "http://www.iha.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/iha_gundem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.iha.com.tr/rss.php?cid=8",
+        "isBasedOnUrl": "http://www.iha.com.tr/",
+        "category": "breakingnews",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/dunyabulteni",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.dunyabulteni.net/servisler/rss/haberler",
+        "isBasedOnUrl": "http://www.dunyabulteni.net/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Asia/Tbilisi"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/imctv",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.imctv.com.tr/feed/",
+        "isBasedOnUrl": "http://www.imctv.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/merhabahaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.merhabahaber.com/rss/",
+        "isBasedOnUrl": "http://www.merhabahaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/habervaktim",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.habervaktim.com/rss/",
+        "isBasedOnUrl": "http://www.habervaktim.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberimport",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://haberimport.com/rss",
+        "isBasedOnUrl": "http://haberimport.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberinioku",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberinioku.com/rss.xml",
+        "isBasedOnUrl": "http://www.haberinioku.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberfark",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberfark.net/rss/",
+        "isBasedOnUrl": "http://www.haberfark.net/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/akradyo_guncel",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://akradyo.net/rss/GÜNCEL.aspx",
+        "isBasedOnUrl": "http://www.akradyo.net/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/akradyo_ekonomi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://akradyo.net/rss/EKONOMİ.aspx",
+        "isBasedOnUrl": "http://www.akradyo.net/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/fortuneturkey",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.fortuneturkey.com/rss/genel.xml",
+        "isBasedOnUrl": "http://www.fortuneturkey.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/istekobi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://istekobi.com.tr/rss/haberler.aspx",
+        "isBasedOnUrl": "http://istekobi.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/campaigntr",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.campaigntr.com/feed/",
+        "isBasedOnUrl": "http://www.campaigntr.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/borsamatik_ekonomi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.borsamatik.com.tr/rss/rss.aspx?cid=2",
+        "isBasedOnUrl": "http://www.borsamatik.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/borsamatik_dunya",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.borsamatik.com.tr/rss/rss.aspx?cid=3",
+        "isBasedOnUrl": "http://www.borsamatik.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/borsamatik_sirket",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.borsamatik.com.tr/rss/rss.aspx?cid=4",
+        "isBasedOnUrl": "http://www.borsamatik.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/borsamatik_guncel",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.borsamatik.com.tr/rss/rss.aspx?cid=5",
+        "isBasedOnUrl": "http://www.borsamatik.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/mediacatonline",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.mediacatonline.com/feed/",
+        "isBasedOnUrl": "http://www.mediacatonline.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/airporthaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.airporthaber.com/rss/",
+        "isBasedOnUrl": "http://www.airporthaber.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/vesselfinder",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "https://www.vesselfinder.com/rss",
+        "isBasedOnUrl": "https://www.vesselfinder.com",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/theloadstar",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://theloadstar.co.uk/feed/",
+        "isBasedOnUrl": "http://theloadstar.co.uk/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ship_technology",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ship-technology.com/feeds/site-feed.xml",
+        "isBasedOnUrl": "http://www.ship-technology.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tccb_haberler",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tccb.gov.tr/rss/haberler/",
+        "isBasedOnUrl": "http://www.tccb.gov.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tccb_aciklamalar",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tccb.gov.tr/rss/aciklamalar/",
+        "isBasedOnUrl": "http://www.tccb.gov.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@id": "http://tracker.wgb.io:8081/rss/tccb_kosk_gundem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tccb.gov.tr/rss/koskgundeminden/",
+        "isBasedOnUrl": "http://www.tccb.gov.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tccb_cmhb_sozcu",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tccb.gov.tr/rss/cumhurbaskanligisozculugunden/",
+        "isBasedOnUrl": "http://www.tccb.gov.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yeniasir_anasayfa",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.yeniasir.com.tr/rss/anasayfa.xml",
+        "isBasedOnUrl": "http://www.yeniasir.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/container-mag",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://container-mag.com/feed/",
+        "isBasedOnUrl": "http://container-mag.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/donanimhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://donanimhaber.com/rss/tum/",
+        "isBasedOnUrl": "http://www.donanimhaber.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/teknoblog",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.teknoblog.com/feed",
+        "isBasedOnUrl": "http://www.teknoblog.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/teknolojioku",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.teknolojioku.com/teknoloji-haberleri.rss",
+        "isBasedOnUrl": "http://www.teknolojioku.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/veteknoloji",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.veteknoloji.net/xml/haber.xml",
+        "isBasedOnUrl": "http://www.veteknoloji.net/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/turkishexpodirectory",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.turkishexpodirectory.com/rss.xml",
+        "isBasedOnUrl": "http://www.turkishexpodirectory.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ilerihaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://ilerihaber.org/rss.xml",
+        "isBasedOnUrl": "http://ilerihaber.org/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/euronews_home_tr",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.feedburner.com/euronews/tr/home/",
+        "isBasedOnUrl": "http://tr.euronews.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/istanbulhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.istanbulhaber.com.tr/rss/",
+        "isBasedOnUrl": "http://www.istanbulhaber.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/haberekspres",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.haberekspres.com.tr/rss.php",
+        "isBasedOnUrl": "http://www.haberekspres.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cagdasses",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cagdasses.com/rss",
+        "isBasedOnUrl": "http://www.cagdasses.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/habervakti",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.habervakti.com/rss.ashx",
+        "isBasedOnUrl": "http://www.habervakti.com/",
+        "category": "news",
+        "inLanguage": "tr",
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+        ]
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/aljazeera",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aljazeera.com/xml/rss/all.xml",
+        "isBasedOnUrl": "http://www.aljazeera.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cbsnews_main",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cbsnews.com/latest/rss/main",
+        "isBasedOnUrl": "http://www.cbsnews.com/",
+        "category": "news",
+        "inLanguage": "en"
+      },
+      "timezoneChange": {
+        "replacee": "GMT-5",
+        "replacer": "GMT"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cbsnews_world",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cbsnews.com/latest/rss/world",
+        "isBasedOnUrl": "http://www.cbsnews.com/",
+        "category": "news",
+        "inLanguage": "en"
+      },
+      "timezoneChange": {
+        "replacee": "GMT-5",
+        "replacer": "GMT"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/cbsnews_tech",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.cbsnews.com/latest/rss/tech",
+        "isBasedOnUrl": "http://www.cbsnews.com/",
+        "category": "news",
+        "inLanguage": "en"
+      },
+      "timezoneChange": {
+        "replacee": "GMT-5",
+        "replacer": "GMT"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/karsigazete_anasayfa",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.karsigazete.com.tr/rss.php",
+        "isBasedOnUrl": "http://www.karsigazete.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/karsigazete_bilim_teknoloji",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.karsigazete.com.tr/rss/post/4.xml",
+        "isBasedOnUrl": "http://www.karsigazete.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/karsigazete_dunya",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.karsigazete.com.tr/rss/post/2.xml",
+        "isBasedOnUrl": "http://www.karsigazete.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/karsigazete_ekonomi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.karsigazete.com.tr/rss/post/3.xml",
+        "isBasedOnUrl": "http://www.karsigazete.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/havakargoturkiye",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.havakargoturkiye.com/Hava-Kargo-Turkiye-Rss",
+        "isBasedOnUrl": "http://www.havakargoturkiye.com/",
+        "category": "logistics",
+        "inLanguage": "tr",
+        "cacheSize": "4000"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hapag_lloyd_liner_services",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hapag-lloyd.com/feeds/en/news/liner_services.rss",
+        "isBasedOnUrl": "http://www.hapag-lloyd.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hapag_lloyd_ports_inland",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hapag-lloyd.com/feeds/en/news/ports_inland.rss",
+        "isBasedOnUrl": "http://www.hapag-lloyd.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hapag_lloyd_rates",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hapag-lloyd.com/feeds/en/news/rates.rss",
+        "isBasedOnUrl": "http://www.hapag-lloyd.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hapag_lloyd_surcharges",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hapag-lloyd.com/feeds/en/news/surcharges.rss",
+        "isBasedOnUrl": "http://www.hapag-lloyd.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hapag_lloyd_general",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hapag-lloyd.com/feeds/en/news/general_information.rss",
+        "isBasedOnUrl": "http://www.hapag-lloyd.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hapag_lloyd_transition",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.hapag-lloyd.com/feeds/en/investor_relations/transition_information.rss",
+        "isBasedOnUrl": "http://www.hapag-lloyd.com/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/worldshipping",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.worldshipping.org/news/articles.rss",
+        "isBasedOnUrl": "http://www.worldshipping.org/",
+        "category": "logistics",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/feedburner_teknoloji",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.feedburner.com/teknoloji-haber/teknoloji-haberleri-sitesi",
+        "isBasedOnUrl": "http://feeds.feedburner.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/shiftdelete",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://shiftdelete.net/rss",
+        "isBasedOnUrl": "http://shiftdelete.net/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/yesilekonomi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://yesilekonomi.com/rss/tum-haberler",
+        "isBasedOnUrl": "http://yesilekonomi.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/fortune",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://fortune.com/feed/",
+        "isBasedOnUrl": "http://fortune.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ticaretgazetesi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://ticaretgazetesi.com.tr/rss/?l=1",
+        "isBasedOnUrl": "http://ticaretgazetesi.com.tr/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/aimsaddergisi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.aimsaddergisi.com/feed/",
+        "isBasedOnUrl": "http://www.aimsaddergisi.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/netgazete",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.netgazete.com/feeds/sondakika.rss",
+        "isBasedOnUrl": "http://www.netgazete.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/timeturk",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.timeturk.com/rss/",
+        "isBasedOnUrl": "http://www.timeturk.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/karsigazete_gundem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.karsigazete.com.tr/rss/post/1.xml",
+        "isBasedOnUrl": "http://www.karsigazete.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/teknolog",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.teknolog.com/feed/",
+        "isBasedOnUrl": "http://www.teknolog.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ihracattaleplericeviri",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://ihracattaleplericeviri.blogspot.com/feeds/posts/default",
+        "isBasedOnUrl": "http://ihracattaleplericeviri.blogspot.com.tr/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/turkishexporter",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://turkishexporter.net/tr-TR/Leads-rss",
+        "isBasedOnUrl": "http://turkishexporter.net/",
+        "category": "institutional",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/businessinsider",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds2.feedburner.com/businessinsider",
+        "isBasedOnUrl": "http://www.businessinsider.com/",
+        "category": "business",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/webtekno",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://feeds.feedburner.com/webteknocom",
+        "isBasedOnUrl": "http://www.webtekno.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/sirketnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://sirketnews.com/feed",
+        "isBasedOnUrl": "http://sirketnews.com/",
+        "category": "business",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/pattern/uri/port2port",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.port2port.com/",
+        "isBasedOnUrl": "http://www.port2port.com/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      },
+      "patternInfo": {
+        "isBasedOnUrl": "http://www.port2port.com/",
+        "valuePattern": "http:\\/\\/www.port2port.com\\/article\\/[a-zA-Z0-9/-]+"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gidahatti",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gidahatti.com/feed",
+        "isBasedOnUrl": "http://www.gidahatti.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gidavitrini",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gidavitrini.com.tr/rss.php",
+        "isBasedOnUrl": "http://www.gidavitrini.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tarimsalhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tarimsalhaber.com/rss.php",
+        "isBasedOnUrl": "http://www.tarimsalhaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gthbhaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gthbhaber.com/feed/",
+        "isBasedOnUrl": "http://www.gthbhaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tarimgentr",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tarim.gen.tr/xml/haberler.asp",
+        "isBasedOnUrl": "http://www.tarim.gen.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tarimpusulasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tarimpusulasi.com/rss/genel",
+        "isBasedOnUrl": "http://www.tarimpusulasi.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tarimcomtr",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://tarim.com.tr/RSS/Haberler.aspx",
+        "isBasedOnUrl": "http://tarim.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gazeteanadolu",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://gazeteanadolu.com/rss.xml",
+        "isBasedOnUrl": "http://gazeteanadolu.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT+2",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tarimdunyasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.tarimdunyasi.net/?feed=rss2",
+        "isBasedOnUrl": "http://www.tarimdunyasi.net/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gidagundemi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.gidagundemi.com/rss.html",
+        "isBasedOnUrl": "http://www.gidagundemi.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/gidatarim",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://gidatarim.com/feed",
+        "isBasedOnUrl": "http://gidatarim.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/borsagundem",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.borsagundem.com/rss",
+        "isBasedOnUrl": "http://www.borsagundem.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/tarimdedektifi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://tarimdedektifi.com/feed/",
+        "isBasedOnUrl": "http://tarimdedektifi.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/containerNews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://container-news.com/feed/",
+        "isBasedOnUrl": "http://container-news.com/",
+        "category": "logistic",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ulastirmadunyasi",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ulastirmadunyasi.com/?feed=rss2",
+        "isBasedOnUrl": "http://www.ulastirmadunyasi.com/",
+        "category": "logistic",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/newsmaritime",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.newsmaritime.com/feed/",
+        "isBasedOnUrl": "http://www.newsmaritime.com/",
+        "category": "logistic",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/maritimeprofessional",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.maritimeprofessional.com/rss/news",
+        "isBasedOnUrl": "http://www.maritimeprofessional.com/",
+        "category": "logistic",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/arabiansupplychain",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.arabiansupplychain.com/rssFeed/WebRssFeeds/news",
+        "isBasedOnUrl": "http://www.arabiansupplychain.com/",
+        "category": "logistic",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/seatradeMaritime",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.seatrade-maritime.com/index.php?option=com_obrss&task=feed&id=24&format=",
+        "isBasedOnUrl": "http://www.seatrade-maritime.com/",
+        "category": "logistic",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/logisticsmanager",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.logisticsmanager.com/feed/",
+        "isBasedOnUrl": "http://www.logisticsmanager.com/",
+        "category": "logistic",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/purchasingturkiye",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://purchasingturkiye.com/feed/",
+        "isBasedOnUrl": "http://purchasingturkiye.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/marketingturkiye",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.marketingturkiye.com.tr/rss",
+        "isBasedOnUrl": "http://www.marketingturkiye.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/fda",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "https://www.nlm.nih.gov/medlineplus/feeds/news_en.xml",
+        "isBasedOnUrl": "http://www.fda.gov/default.htm",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medpagetoday",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medpagetoday.com/rss/Headlines.xml",
+        "isBasedOnUrl": "http://www.medpagetoday.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/2/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/3/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/4/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/6/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/8/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/9/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/10/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/11/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/80/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medimagazin",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.medimagazin.com.tr/rss/1/676/rss.xml",
+        "isBasedOnUrl": "http://www.medimagazin.com.tr/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/medicalnewstoday",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://rss.medicalnewstoday.com/featurednews.xml",
+        "isBasedOnUrl": "http://www.medicalnewstoday.com/",
+        "category": "news",
+        "inLanguage": "en"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/literaturaktuel",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.literaturaktuel.com/feed/",
+        "isBasedOnUrl": "http://www.literaturaktuel.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/teknohaber",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.teknohaber.com/feed",
+        "isBasedOnUrl": "http://www.teknohaber.com/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/teknohabertc",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.teknohaber.tc/feed",
+        "isBasedOnUrl": "http://www.teknohaber.tc/",
+        "category": "news",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/und_sektorel_haberler",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://und.org.tr/rss.php?t=1&id=145",
+        "isBasedOnUrl": "http://und.org.tr/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/undden_haberler",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://und.org.tr/rss.php?t=1&id=147",
+        "isBasedOnUrl": "http://und.org.tr/",
+        "category": "logistics",
+        "inLanguage": "tr"
+      }
+    }
+  },
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/hissenet",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://hisse.net/haber/?feed=rss2",
+        "isBasedOnUrl": "http://hisse.net/haber/",
+        "category": "news",
+        "inLanguage": "tr"
+      },
+      "timezoneChange": {
+        "replacee": "GMT",
+        "replacer": "Europe/Istanbul"
+      }
+    }
+  }
+]

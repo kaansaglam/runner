@@ -1,0 +1,20 @@
+[
+  {
+    "@context": "http://schema.org/",
+    "@id": "http://tracker.wgb.io:8081/rss/ulke_haber_breakingnews",
+    "@type": "Role",
+    "potentialAction": {
+      "name": "START",
+      "followee": {
+        "url": "http://www.ulkehaber.com/rss/sondakika.xml",
+        "isBasedOnUrl": "http://www.ulkehaber.com/",
+        "category": "breakingnews",
+        "inLanguage": "tr",
+        "resolve":true,
+        "headers": [
+          "User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion"
+          ]
+      }
+    }
+  }
+  ]

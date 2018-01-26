@@ -1,0 +1,2 @@
+http://reporter.wgb.io:8087/tag_follower
+http://custodian.wgb.io:8085/custodian

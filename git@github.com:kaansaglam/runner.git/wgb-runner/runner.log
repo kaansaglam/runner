@@ -1,0 +1,6 @@
+11:07:34,833 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+11:07:43,329 INFO  [com.galaksiya.wgb.runner.AreaServedUpdater] (main) DONE!
+11:35:57,939 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+11:36:39,501 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+11:37:15,430 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+11:37:24,053 INFO  [com.galaksiya.wgb.runner.AreaServedUpdater] (main) DONE!

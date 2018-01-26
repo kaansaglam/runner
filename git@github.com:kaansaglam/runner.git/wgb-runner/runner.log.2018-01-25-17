@@ -1,0 +1,13 @@
+17:06:22,523 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:07:06,409 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:07:37,110 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:07:45,894 INFO  [com.galaksiya.wgb.runner.AreaServedUpdater] (main) DONE!
+17:13:24,320 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:13:35,630 INFO  [com.galaksiya.wgb.runner.AreaServedUpdater] (main) DONE!
+17:13:55,968 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:15:52,483 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:16:56,532 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:18:06,381 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:54:32,417 INFO  [com.galaksiya.util.elasticsearch.ElasticSearchClient] (main) client created: hosts#[localhost], port#9,300
+17:56:32,337 WARN  [com.galaksiya.util.cache.TraversableCache] (pool-1-thread-1) status: purgingState#false, activeProcesses#0
+17:56:32,419 WARN  [com.galaksiya.util.cache.TraversableCache] (pool-1-thread-2) status: purgingState#false, activeProcesses#0
