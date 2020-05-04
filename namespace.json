@@ -1,0 +1,10 @@
+{
+  "apiVersion": "v1",
+  "kind": "Namespace",
+  "metadata": {
+    "name": "iys-stagging",
+    "labels": {
+      "name": "iys-stagging"
+    }
+  }
+}
